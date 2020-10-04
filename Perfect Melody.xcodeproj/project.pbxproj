@@ -14,6 +14,7 @@
 		7C85882D24F1B3FB0046E9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C85882C24F1B3FB0046E9E7 /* Assets.xcassets */; };
 		7C85883024F1B3FB0046E9E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C85882F24F1B3FB0046E9E7 /* Preview Assets.xcassets */; };
 		7C85883324F1B3FB0046E9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C85883124F1B3FB0046E9E7 /* LaunchScreen.storyboard */; };
+		7CA79DA6251002F200EFDC29 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA79DA5251002F200EFDC29 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7C85882F24F1B3FB0046E9E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C85883224F1B3FB0046E9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C85883424F1B3FB0046E9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA79DA5251002F200EFDC29 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		7C85882224F1B3F70046E9E7 /* Perfect Melody */ = {
 			isa = PBXGroup;
 			children = (
+				7CD1E6F025195F8C00673930 /* View */,
+				7CD1E6EF25195F3D00673930 /* Model */,
 				7C85882324F1B3F70046E9E7 /* AppDelegate.swift */,
 				7C85882524F1B3F70046E9E7 /* SceneDelegate.swift */,
-				7C85882A24F1B3F70046E9E7 /* ContentView.swift */,
 				7C85882C24F1B3FB0046E9E7 /* Assets.xcassets */,
 				7C85883124F1B3FB0046E9E7 /* LaunchScreen.storyboard */,
 				7C85883424F1B3FB0046E9E7 /* Info.plist */,
@@ -76,6 +79,22 @@
 				7C85882F24F1B3FB0046E9E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CD1E6EF25195F3D00673930 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CA79DA5251002F200EFDC29 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CD1E6F025195F8C00673930 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C85882A24F1B3F70046E9E7 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C85882924F1B3F70046E9E7 /* Perfect_Melody.xcdatamodeld in Sources */,
+				7CA79DA6251002F200EFDC29 /* Data.swift in Sources */,
 				7C85882424F1B3F70046E9E7 /* AppDelegate.swift in Sources */,
 				7C85882B24F1B3F70046E9E7 /* ContentView.swift in Sources */,
 				7C85882624F1B3F70046E9E7 /* SceneDelegate.swift in Sources */,
