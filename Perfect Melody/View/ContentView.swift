@@ -9,6 +9,7 @@
 import Foundation
 import SwiftUI
 import AVKit
+import Alamofire
 
 struct ContentView: View {
         @State private var maxWidth: CGFloat = .zero
@@ -286,6 +287,21 @@ class ApiRequest{
 //            print(error.localizedDescription)
 //        }
 //    }
+    
+    func getConincidences() {
+        
+        print(urlAudio)
+        if let hummingData = try? Data(contentsOf: urlAudio) {
+            AF.upload(multipartFormData: { multipartFormData in
+                multipartFormData.append(hummingData, withName: "humming", fileName: "myRcd.m4a",mimeType: "audio/m4a")
+            }, to: "http://18.191.176.24/api/ranking", headers: ["X-Perfect-Melody-Token":"xma1lhVnlBe9aruYvZY4W8q1ruSmpshmMwLTYFohB9mrOlkCdI" ]).responseDecodable(of: Response.self) { response in
+                    debugPrint(response) 
+                }
+            
+        }
+        
+        
+    }
         
     func getPosts(completion: @escaping (Response) -> ()){
 //        self.getAudiosToSend()
@@ -372,9 +388,10 @@ struct CoincidencesList: View {
             .navigationBarTitle("Resultados")
         }
         .onAppear(){
-            ApiRequest(url: self.url).getPosts(completion: { result in
-                self.data = result.body
-            })
+//            ApiRequest(url: self.url).getPosts(completion: { result in
+//                self.data = result.body
+//            })
+            ApiRequest(url: self.url).getConincidences()
         }
     }
 }

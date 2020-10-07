@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E06F8014-95DC-470D-8176-E817ADECCB45"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DDF4EAD-9192-45F6-9D30-AE4E27B9C913"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Perfect Melody/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "getConincidences()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DDF4EAD-9192-45F6-9D30-AE4E27B9C913 - c47c7f23b7d7372a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Perfect_Melody.ApiRequest.getConincidences() -&gt; ()"
+                  moduleName = "Perfect Melody"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/everis/Documents/perfectMelodyiOS/Perfect%20Melody/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "665">
+               </Location>
+               <Location
+                  uuid = "0DDF4EAD-9192-45F6-9D30-AE4E27B9C913 - 1e550c27c8194c2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in Perfect_Melody.ApiRequest.getConincidences() -&gt; ()"
+                  moduleName = "Perfect Melody"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/everis/Documents/perfectMelodyiOS/Perfect%20Melody/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "296"
+                  endingLineNumber = "296"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85398169-33F0-4362-9C31-B4E5FA299B15"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Perfect Melody/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "getConincidences()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF2098D8-6630-45EA-A616-D40B481ACF4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Perfect Melody/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
+            landmarkName = "getConincidences()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF2098D8-6630-45EA-A616-D40B481ACF4D - c47c7f23b7d7372a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Perfect_Melody.ApiRequest.getConincidences() -&gt; ()"
+                  moduleName = "Perfect Melody"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/everis/Documents/perfectMelodyiOS/Perfect%20Melody/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "CF2098D8-6630-45EA-A616-D40B481ACF4D - 1e550c27c8194c2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.MultipartFormData) -&gt; () in Perfect_Melody.ApiRequest.getConincidences() -&gt; ()"
+                  moduleName = "Perfect Melody"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/everis/Documents/perfectMelodyiOS/Perfect%20Melody/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "297"
+                  endingLineNumber = "297"
+                  offsetFromSymbolStart = "243">
+               </Location>
+               <Location
+                  uuid = "CF2098D8-6630-45EA-A616-D40B481ACF4D - 71580849318fd13f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;Perfect_Melody.Response, Alamofire.AFError&gt;) -&gt; () in Perfect_Melody.ApiRequest.getConincidences() -&gt; ()"
+                  moduleName = "Perfect Melody"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/everis/Documents/perfectMelodyiOS/Perfect%20Melody/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "298"
+                  endingLineNumber = "298"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43C9D185-C80A-43C1-B88B-25B22CD09487"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Perfect Melody/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "getConincidences()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59498314-97D2-459A-9053-74E684D17BA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Perfect Melody/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "getConincidences()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
